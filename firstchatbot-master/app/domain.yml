@@ -1,84 +1,32 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Vishal."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-intents:
-- greet
-- goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
-- location
-- contact
-- services
-- heart
-- diabetes
-- obease
-- thank
-responses:
-  utter_greet:
-  - text: Hey! Welcome to Our AI Clinic....
-  utter_cheer_up:
-  - text: "Please don't feel bad, Cheer up Buddy:"
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_give_more_task:
-  - text: Please post... If you have any other queries.
-  utter_thank:
-  - text: It's My pleasure...:)
-  utter_goodbye:
-  - text: Bye, Take care
-  utter_affirm:
-  - text: Happy to help you :)
-  utter_deny:
-  - text: Feelling sad to hear that :(
-  utter_help_you:
-  - text: How can I help you?
-  utter_choose_service:
-  - text: Please choose any one from above.
-  utter_byemsg:
-  - text: It was pleasure to talk to you..:)
-  utter_iamabot:
-  - text: I am a bot, developed by Vishal Patil.
-  utter_location:
-  - text: "Hello, We are located in: \n Shanti Sadan, Ravivar Peth,Kolhapur"
-  utter_contact:
-  - text: 'You can call us at: 7350300772'
-  utter_services:
-  - text: "Services we provides are:\n - Heart Disease Prediction\n - Diabetes Disease\
-      \ Prediction\n - Obease Prediction"
-  utter_heart:
-  - text: "Follow These Steps:\n - First check your heart disease prediction.\n -\
-      \ If model predict that you have heart disease.\n - Follow our precautionary\
-      \ steps and contact our heart disease specialist"
-  utter_diabetes:
-  - text: "Follow These Steps:\n - First check your diabetes disease prediction.\n\
-      \ - If model predict that you have diabetes disease.\n - Follow our precautionary\
-      \ steps and contact our diabetes disease specialist"
-  utter_obease:
-  - text: "Follow These Steps:\n - First check your obease disease prediction.\n -\
-      \ If model predict that you have obease disease.\n - Follow our precautionary\
-      \ steps and contact our obease disease specialist"
-actions:
-- utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
-- utter_give_more_task
-- utter_thank
-- utter_goodbye
-- utter_affirm
-- utter_deny
-- utter_help_you
-- utter_choose_service
-- utter_byemsg
-- utter_iamabot
-- utter_location
-- utter_contact
-- utter_services
-- utter_heart
-- utter_diabetes
-- utter_obease
